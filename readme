@@ -1,0 +1,19 @@
+# Ultimate OpenClaw Skills
+
+This repository contains my custom OpenClaw autonomous skills system.
+
+Features:
+- Autonomous coding
+- Website and app generation
+- Multi-agent swarm system
+- Memory and self-repair
+- Business automation
+- Lead generation and chatbot creation
+
+Install:
+
+git clone https://github.com/tonypro100/openclaw-skills-money.git
+
+cd openclaw-skills-money
+
+bash install.sh
