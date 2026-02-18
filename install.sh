@@ -1,3 +1,4 @@
+
 set -e
 REPO="https://github.com/tonypro100/openclaw-skills-money.git"
 
@@ -47,10 +48,13 @@ JS
 chmod +x skills/ssgm-core/orchestrator/ssgm-swarm.js
 
 cat > install.sh <<'SH'
+=======
+
 #!/usr/bin/env bash
 mkdir -p ~/.openclaw/skills
 cp -R skills/* ~/.openclaw/skills/
 echo "Installed"
+
 SH
 
 chmod +x install.sh
@@ -60,3 +64,5 @@ git commit -m "Add SSGM core"
 git push origin main
 
 bash install.sh
+=======
+
